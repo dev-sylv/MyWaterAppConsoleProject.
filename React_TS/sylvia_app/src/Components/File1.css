@@ -1,0 +1,56 @@
+/* Quotes site Css  */
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(67, 202, 67);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: cursive;
+    font-weight: 800;
+  }
+  button{
+    width: 100px;
+    height: 50px;
+    margin: 30px;
+    border-radius: 10px;
+    border: 3px solid green;
+    background-color: rgb(67, 202, 67);
+  }
+  button:hover{
+    background-color: black;
+    color: white;
+    border: 3px solid green;
+  }
+  h3{
+    text-align: center;
+    color: white;
+  }
+  input{
+    width: 450px;
+    height: 50px;
+    outline: none;
+    border: 2px solid green;
+    color: white;
+    background-color: transparent;
+  }
+  .input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .special-btn{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border: 1px solid green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+  }
+  .special-btn:hover{
+    background-color: green;
+    color: white;
+    font-size: large;
+  } 
